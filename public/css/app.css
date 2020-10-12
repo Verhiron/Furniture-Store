@@ -1,0 +1,270 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #D3D3D3;
+    margin: 0;
+  }
+  .header {
+    margin: 0;
+    padding-bottom: 1px;
+    background: #3D0814;
+    color: #DDD1C7;
+    font-size: 20px;
+    box-shadow: 0px 5px #98775D;
+  }
+  .nav-css{
+    position: fixed;
+    left: 0;
+    font-size: 30px;
+    cursor:pointer;
+    background-color: #3D0814;
+    color: #DDD1C7;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+  }
+  .nav-css:hover{
+    color: #f1f1f1;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0;
+    background-color: #3D0814;
+    overflow-x: hidden;
+    transition: .6s;
+    padding-top: 50px;
+    border-right: none;
+  }
+  .sidenav a {
+    padding: 10px 1px 8px 15px;
+    text-decoration: none;
+    font-size: 35px;
+    color: #DDD1C7;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .sidenav a:hover {
+    color: #000000;
+    background-color: #DDD1C7;
+  }
+  .closebtn {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin-left: 0px;
+  }
+  
+  .smallText{
+    font-size: 5pt;
+  }
+  .brx4{
+    display: block;
+    margin: 80px;
+  }
+  
+  .Room_Type{
+    margin-top: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 5px;
+    background-color: #3D0814;
+    color: #DDD1C7;
+    font-weight: 300;
+    font-size: 12pt;
+    box-shadow: 0px 0px 2px 2px #98775D;
+    height: 30px;
+    width: 130px;
+  }
+  
+  
+  .Room_Item{
+    margin-top: 20px ;
+    display: inline-block;
+    padding: 5px;
+    background-color: #3D0814;
+    color: #DDD1C7;
+    font-weight: 300;
+    font-size: 12pt;
+    box-shadow: 0px 0px 2px 2px #98775D;
+    height: 30px;
+    width: 130px;
+  }
+
+  
+  /* root container on main page */
+  #heading1{
+    margin:0;
+    text-align: center;
+  }
+  
+  #heading1Para{
+    text-align: center
+  }
+  
+  #root {
+    margin-top: 20px;
+    z-index: 0;
+    margin-left: -400px;
+    transition: 1.5s;
+    background-color: light-gray;
+    width: 80%;
+  }
+  
+  
+  #loginFormRoot{
+    position: absolute;
+    z-index: 0;
+    top: 30%;
+    transition: 1.5s;
+    display: block;
+    width: 80%;
+    font-size: 15pt;
+    margin-left: -400px;
+  }
+  
+  #hidebutton{
+    margin-top: 15px;
+    margin-left: -400px;
+    font-size: 12pt;
+    border: none;
+    height: 50px;
+    width: 40%;
+    transition: 1.5s;
+  }
+  
+  #hidebutton2{
+    margin-left: -400px;
+    font-size: 12pt;
+    border: none;
+    height: 50px;
+    width: 40%;
+    transition: 1.5s;
+  }
+  
+  
+  .signinbtn{
+    font-size: 12pt;
+    border: none;
+    height: 50px;
+    width: 80px;
+    margin-left: 5px;
+  }
+  
+  .form {
+    display: block;
+    width: 100%;
+    font-size: 15pt;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #98775D;
+    background-color: #3D0814;
+    color: white;
+  }
+  
+  .form-control{
+    font-size: 12pt;
+  }
+  
+  .form-container {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .phone-container{
+    display: block;
+    width: 100%;
+    font-size: 15pt;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #98775D;
+    background-color: #3D0814;
+    color: white;
+  }
+  
+  .password-container{
+    display: block;
+    width: 100%;
+    font-size: 15pt;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #98775D;
+    background-color: #3D0814;
+    color: white;
+  
+  }
+  
+  .signInput{
+    font-size: 12pt;
+    width: 90%;
+    margin: 5px 5px 5px 5px;
+  }
+  
+  .signupSubmit{
+    font-size: 12pt;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-left: 70px;
+  }
+  /* feedback css underneath signup text boxes */
+  .invalid-feedback{
+    margin-top: 10px;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+  }
+
+  .cardContainer {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    float: left;
+    margin-right: 20px;
+    font-size: 10pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .card img{
+      height: 250px;
+      width: 350px;
+  }
+  
+  .price {
+    color: black;
+    font-size: 15pt;
+    font-weight: 300;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #3D0814;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
