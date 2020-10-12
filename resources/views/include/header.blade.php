@@ -47,7 +47,7 @@
               {{ csrf_field() }}
               <div class="phone-container">
             <label for="email"> Email:</label>
-            <input type="text" name="email" class="signInput" placeholder="Enter Phone Number">
+            <input type="text" name="email" class="signInput" placeholder="Enter Email">
           </div>
           <div class="password-container">
             <label for="password"> Password:</label>
