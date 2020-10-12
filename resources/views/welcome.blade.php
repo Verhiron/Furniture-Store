@@ -8,7 +8,7 @@
         <script src="{{ URL::asset('http://code.jquery.com/jquery-3.1.1.js') }}" type="text/javascript" ></script>
         <script src="{{ URL::asset('js/itemFilter.js') }}" type="text/javascript" ></script>
         <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet" type="text/css" >
-        <title>Laravel</title>
+        <title>Furniture Store</title>
 
     </head>
     <body>
