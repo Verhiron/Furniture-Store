@@ -22,11 +22,11 @@ $phone = auth()->user()->phone;
       $(document).ready(function() {
       $(".buyButton").click(function(e) {
           e.preventDefault();
-          var yeet = $(this).val();
+          var item = $(this).val();
           $.ajax({
           type: "POST",
           url: "/insert",
-          data: {item: yeet, name: '{{$name}}', email: '{{$email}}', phone: '{{$phone}}'},
+          data: {item: item, name: '{{$name}}', email: '{{$email}}', phone: '{{$phone}}'},
           headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr("content")},
           success: function(response){
             alert(response);
